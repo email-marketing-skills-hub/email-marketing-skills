@@ -1,5 +1,7 @@
 # Email Marketing Skills
 
+![Email marketing skills illustration: an agent sorts requests into campaigns, popups, automations, and segments.](assets/email-marketing-skills-hero.svg)
+
 **20 focused AI-agent skills for email marketing and audience growth, brought together by [Poptin](https://www.poptin.com/).**
 
 Plan campaigns, write copy, design automations, define segments, improve signup experiences, and review deliverability. Choose a general workflow or an industry specialist. Install only what you need, or install the full collection.
