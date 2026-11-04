@@ -1,0 +1,498 @@
+{
+  "snapshot_date": "2026-11-04",
+  "method": "Each file verified against the Git blob SHA from the source repository default-branch tree. Skill files are unchanged.",
+  "skills": [
+    {
+      "name": "automotive-email-marketing-specialist",
+      "source_repository": "email-marketing-skills-hub/automotive-email-marketing-specialist",
+      "source_tree_sha": "dc009ab6947feb5f60bd1909b53114e8dfac4af0",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "07f40f1f50fcaf0e3f08bb26e24292b8070ba940"
+        },
+        {
+          "path": "references/public-guidance.md",
+          "git_blob_sha": "c4d7cab6ad5f67be6501b620b87eb5874991d6e6"
+        },
+        {
+          "path": "references/scenario-test.md",
+          "git_blob_sha": "1dd4242ff5d3b9b3591f0bbac9772641ba9d70bf"
+        }
+      ]
+    },
+    {
+      "name": "ecommerce-email-marketing-specialist",
+      "source_repository": "email-marketing-skills-hub/ecommerce-email-marketing-specialist",
+      "source_tree_sha": "51b93d6d638a4a61e23dad9ab9e0cb0b1e307a95",
+      "files": [
+        {
+          "path": "INSTALL.md",
+          "git_blob_sha": "1018478029f33f002ec3486f8799673ad4ec3672"
+        },
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "8975074f50b83ac65f8b33753b946fc8ea97db56"
+        },
+        {
+          "path": "TESTING.md",
+          "git_blob_sha": "c3e90549bd41495137227c1151069a75e872469b"
+        },
+        {
+          "path": "examples/lifecycle-launch.md",
+          "git_blob_sha": "7e0af48ce620f0daac5b7e5b7deea4e1752119fe"
+        },
+        {
+          "path": "examples/project-brief.md",
+          "git_blob_sha": "c2da5f8bba37b4342110a74e078142e2f734dec7"
+        },
+        {
+          "path": "references/academy-workflows.md",
+          "git_blob_sha": "486fe9ae6f824b727c28477486017fa502bc4210"
+        },
+        {
+          "path": "references/automations.md",
+          "git_blob_sha": "2faf99eaf78e7d482d6a26611ebc3b88c2711d21"
+        },
+        {
+          "path": "references/campaigns.md",
+          "git_blob_sha": "1ae70d3b88256195f7968d23acb08507a4a2ad99"
+        },
+        {
+          "path": "references/capture-and-coupons.md",
+          "git_blob_sha": "0ddccb24dfed90b9d194b839f5c5ce3fb2751917"
+        },
+        {
+          "path": "references/measurement-and-qa.md",
+          "git_blob_sha": "eb246b09649696f8f46bd01c8838e85728e69cc0"
+        },
+        {
+          "path": "references/poptin-and-sources.md",
+          "git_blob_sha": "b963711bbe25b7552ba3e7ccc5300451a40bb01c"
+        },
+        {
+          "path": "references/popup-benchmarks.md",
+          "git_blob_sha": "9ebc7afb61a70930af838544c38ae1ce7f17d80a"
+        },
+        {
+          "path": "references/segmentation.md",
+          "git_blob_sha": "d82d5d40327065c2b4c1b6ac8bcf323a5e9a357f"
+        }
+      ]
+    },
+    {
+      "name": "education-email-marketing-specialist",
+      "source_repository": "email-marketing-skills-hub/education-email-marketing-specialist",
+      "source_tree_sha": "444209ad11ab999f6377e6fbb71acdd0c2fa039b",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "b776338adb3abb614d92cb3972ff970146952187"
+        },
+        {
+          "path": "references/public-guidance.md",
+          "git_blob_sha": "d9a95d4c733b0901acbe1ccb1e41710b6eaf343a"
+        },
+        {
+          "path": "references/scenario-test.md",
+          "git_blob_sha": "c10f946ff4012a43fdc7034aaba0ab0c169434cb"
+        }
+      ]
+    },
+    {
+      "name": "email-automation-specialist",
+      "source_repository": "email-marketing-skills-hub/email-automation-specialist",
+      "source_tree_sha": "302c3c7d9a56adb2a7c728c5715ffd205df5204b",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "e54c624ae82ad10e8a070c494863206813fd2b19"
+        },
+        {
+          "path": "agents/openai.yaml",
+          "git_blob_sha": "60db19ac9fe6024ea791a482eee8f47eeff8d767"
+        },
+        {
+          "path": "assets/journey-brief.md",
+          "git_blob_sha": "b8b5f3c4a97a6a590f2b9db061e1830062fecf67"
+        },
+        {
+          "path": "assets/preflight-example.json",
+          "git_blob_sha": "0040b58b9e944f2a08552d7f16d90e76d3d94814"
+        },
+        {
+          "path": "references/consent-and-delivery.md",
+          "git_blob_sha": "f724995fd25a6b1605ea8e9394bc9f468f123a9f"
+        },
+        {
+          "path": "references/journey-patterns.md",
+          "git_blob_sha": "1351c4866eb87fb85b85afff2736c09d5a9fc950"
+        },
+        {
+          "path": "references/poptin-context.md",
+          "git_blob_sha": "df7622b0ed9486918e5e6e9c070d0e2fe3a032b0"
+        },
+        {
+          "path": "references/qa-and-measurement.md",
+          "git_blob_sha": "6a525cefd859744703ac4ccc7233336010441953"
+        },
+        {
+          "path": "references/sources.md",
+          "git_blob_sha": "c9ffd7d97c51feb1ca65ed4811b4a2db09a1d3e6"
+        },
+        {
+          "path": "scripts/preflight.py",
+          "git_blob_sha": "062fbfe014fac12c3b40c5c6bfdafa2a0b6f8729"
+        },
+        {
+          "path": "scripts/test_preflight.py",
+          "git_blob_sha": "970c29be9c7ace77934b8b3e2b4af5ee4705958b"
+        }
+      ]
+    },
+    {
+      "name": "email-campaign-specialist",
+      "source_repository": "email-marketing-skills-hub/email-campaign-specialist",
+      "source_tree_sha": "866f74e441710d5e39dab9be3c2ae5eb8136c2b9",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "e52b920a54f323c7d4fcfd7675bcfafcd9671f6d"
+        },
+        {
+          "path": "assets/campaign-brief.md",
+          "git_blob_sha": "ea35496a80fd93b5ef5caf5dda8ca0bb7fa247b4"
+        },
+        {
+          "path": "references/launch-and-measurement.md",
+          "git_blob_sha": "eb2b8b2768a0001e56ed1a3cdd7b65bb78d789cc"
+        },
+        {
+          "path": "references/poptin-context.md",
+          "git_blob_sha": "44b8cc10f61ef53e1adb7c94cd3e774647f2fb66"
+        }
+      ]
+    },
+    {
+      "name": "email-deliverability-specialist",
+      "source_repository": "email-marketing-skills-hub/email-deliverability-specialist",
+      "source_tree_sha": "fdbff4a226a6b29da115ea496d253df17ef4ae30",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "5693b5dff1aa0c539274590d0747f3d072452eac"
+        },
+        {
+          "path": "evals/cases.md",
+          "git_blob_sha": "e5d61b19384b81bd8f9f8b16dc402e5f049b6e1f"
+        },
+        {
+          "path": "references/authentication.md",
+          "git_blob_sha": "b10c6ffe1913d94f98d31975dc32b2208bf8882b"
+        },
+        {
+          "path": "references/providers-capabilities.md",
+          "git_blob_sha": "daeea772519fbf53d25ba5e731531fee5b02142d"
+        },
+        {
+          "path": "references/reputation-consent.md",
+          "git_blob_sha": "7436e2dadb2ee17d5c7e81f2a60253ac25bfb0ed"
+        }
+      ]
+    },
+    {
+      "name": "email-segmentation-specialist",
+      "source_repository": "email-marketing-skills-hub/email-segmentation-specialist",
+      "source_tree_sha": "b940d3333e15c26769684e918b93dbd3646cd997",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "2e05ef4629b3df5317c9a0a7b8bb5b4cf0e745cc"
+        },
+        {
+          "path": "references/poptin-context.md",
+          "git_blob_sha": "aefb5f116f95cce511a0fc27a467606783d2cb8b"
+        },
+        {
+          "path": "references/segment-design.md",
+          "git_blob_sha": "6b12f8af7cbb2ebc6ec109e4d4a67c11a3bd6f7c"
+        }
+      ]
+    },
+    {
+      "name": "events-email-marketing-specialist",
+      "source_repository": "email-marketing-skills-hub/events-email-marketing-specialist",
+      "source_tree_sha": "585197a9127dbdec21d4e5c7eac355cdfb43134c",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "6e703c0e7e213107f1bf82f03826fbd6294ccfa0"
+        },
+        {
+          "path": "references/public-guidance.md",
+          "git_blob_sha": "fa8b574580ea1a677716fab583a824ee9cd46420"
+        },
+        {
+          "path": "references/scenario-test.md",
+          "git_blob_sha": "30093e377a655d68b4d778a8d97ba6730b6c89ec"
+        }
+      ]
+    },
+    {
+      "name": "financial-services-marketing-specialist",
+      "source_repository": "email-marketing-skills-hub/financial-services-marketing-specialist",
+      "source_tree_sha": "c65d0df0a33d1acfc42276aea02bcb3014573d35",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "ba7235c2b222a5553e828f8d426eef9db0cdee62"
+        },
+        {
+          "path": "evals/cases.md",
+          "git_blob_sha": "5b72b9796ef993ded1839b83c95367fc8cd74a55"
+        },
+        {
+          "path": "references/capture-tools.md",
+          "git_blob_sha": "9c0600cdcec50c4e51f3a294238d4a15fbc26d6f"
+        },
+        {
+          "path": "references/finance-controls.md",
+          "git_blob_sha": "02ca56898e8aee7a060edf968abdb5a6bf2fa746"
+        }
+      ]
+    },
+    {
+      "name": "fitness-email-marketing-specialist",
+      "source_repository": "email-marketing-skills-hub/fitness-email-marketing-specialist",
+      "source_tree_sha": "5687817aafd68b14d9332359039704870dd97efd",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "10b43cc294740b2d002d9472f46937bcb67edb13"
+        },
+        {
+          "path": "references/public-guidance.md",
+          "git_blob_sha": "a1e44640c5423a0d468869bca791a1229b2ff61a"
+        },
+        {
+          "path": "references/scenario-test.md",
+          "git_blob_sha": "42374d8c25bfb4ebd55440682f6ec1207c1dff53"
+        }
+      ]
+    },
+    {
+      "name": "food-restaurants-email-marketing-specialist",
+      "source_repository": "email-marketing-skills-hub/food-restaurants-email-marketing-specialist",
+      "source_tree_sha": "47199a0a86daa730d753cd61f5b12e1523cae09e",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "de673f25d4d81467cf2765deda1c4f5c7362e9ee"
+        },
+        {
+          "path": "references/public-guidance.md",
+          "git_blob_sha": "8c38bae5b1bfbceee05f07d748922ca193ee577d"
+        },
+        {
+          "path": "references/scenario-test.md",
+          "git_blob_sha": "5c3a707c5bddd380c7937f6363a6b83e3aca3547"
+        }
+      ]
+    },
+    {
+      "name": "healthcare-marketing-specialist",
+      "source_repository": "email-marketing-skills-hub/healthcare-marketing-specialist",
+      "source_tree_sha": "0d75189216f1fbf2ab289839d3d2f4b258274983",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "9b364110ad2d9316b410b009d3f52c0511910058"
+        },
+        {
+          "path": "evals/cases.md",
+          "git_blob_sha": "436dc22815c870255562292444391b57e0602c1b"
+        },
+        {
+          "path": "references/capture-tools.md",
+          "git_blob_sha": "022d215f86419e8a7e885ff29940b829909e5f6c"
+        },
+        {
+          "path": "references/health-controls.md",
+          "git_blob_sha": "b869aabd8a00b77bbf329120f0a26da2f3e2a688"
+        }
+      ]
+    },
+    {
+      "name": "hr-recruitment-marketing-specialist",
+      "source_repository": "email-marketing-skills-hub/hr-recruitment-marketing-specialist",
+      "source_tree_sha": "fcd7b063234767c3a52239995b05bba57a158fc9",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "5349ec629000587ec4d9a99c32ae303a65212eaa"
+        },
+        {
+          "path": "references/public-guidance.md",
+          "git_blob_sha": "393c401c61673c5535e026f4263c7476acb8eb4c"
+        }
+      ]
+    },
+    {
+      "name": "lead-generation-popup-specialist",
+      "source_repository": "email-marketing-skills-hub/lead-generation-popup-specialist",
+      "source_tree_sha": "c1c3ba30f77361cd308408b347ffc7a3fdc961ee",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "6b518d72a9ddbcc3598a6ee9ba2ecd0320a77778"
+        },
+        {
+          "path": "references/campaign-design.md",
+          "git_blob_sha": "017d8ac014337d7758036ec351962efdcf9f21cf"
+        },
+        {
+          "path": "references/email-and-implementation.md",
+          "git_blob_sha": "4c774d7a8ebb5c463e5c2c658ea5065b3e01f409"
+        },
+        {
+          "path": "references/measurement.md",
+          "git_blob_sha": "f465a3185c15231eb46c0c183c90660508eb3b4e"
+        }
+      ]
+    },
+    {
+      "name": "nonprofit-engagement-specialist",
+      "source_repository": "email-marketing-skills-hub/nonprofit-engagement-specialist",
+      "source_tree_sha": "4b110942c451ff03687f6d8c1fee59126edb807e",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "7f2c5004fb678cb34d8c7f874b6df2183b2d96fc"
+        },
+        {
+          "path": "references/public-guidance.md",
+          "git_blob_sha": "021a45dcce144fcd0e9e85f1487ff9b3db7e2b64"
+        }
+      ]
+    },
+    {
+      "name": "publisher-audience-growth-specialist",
+      "source_repository": "email-marketing-skills-hub/publisher-audience-growth-specialist",
+      "source_tree_sha": "f83c65d3bf0f76f64a0d7a2526cf641afc5d4c65",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "2f92d0e8745f1e6dac943c9761af4adb428c2473"
+        },
+        {
+          "path": "references/public-guidance.md",
+          "git_blob_sha": "5afcd18c7fba412a4c79f8a091efa8c094912c9f"
+        }
+      ]
+    },
+    {
+      "name": "real-estate-marketing-specialist",
+      "source_repository": "email-marketing-skills-hub/real-estate-marketing-specialist",
+      "source_tree_sha": "774ea8f851b3aa3d3c34100257c552b1c078d3e7",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "184833a2043d8176a0af30f355fc8ce6120f9e16"
+        },
+        {
+          "path": "references/public-guidance.md",
+          "git_blob_sha": "fdce6b5689fda2f93c6be2b51f2d3da3feeedbe1"
+        }
+      ]
+    },
+    {
+      "name": "saas-email-marketing-specialist",
+      "source_repository": "email-marketing-skills-hub/saas-email-marketing-specialist",
+      "source_tree_sha": "3cf4dcc61d08a3eb28fc974bbd4849f519407123",
+      "files": [
+        {
+          "path": "INSTALL.md",
+          "git_blob_sha": "1479a7dda01ccff3b1a15cb4c258a36b590b6e0f"
+        },
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "7fc249d5abe7d0d25445e6cee113cb33aeed567c"
+        },
+        {
+          "path": "TESTING.md",
+          "git_blob_sha": "d32020ca4b1133e22a2b7fe3213cd6e00a60038a"
+        },
+        {
+          "path": "examples/project-brief.md",
+          "git_blob_sha": "2e08a0dc4146e62fbaf739f60ebec4c7c1583efc"
+        },
+        {
+          "path": "examples/trial-activation.md",
+          "git_blob_sha": "0ae23f4385413567210a35e682d60ce9e00822b5"
+        },
+        {
+          "path": "references/campaigns.md",
+          "git_blob_sha": "46cee2f2be8ccb8af72670d09ef57833bfc1879e"
+        },
+        {
+          "path": "references/capture-and-offers.md",
+          "git_blob_sha": "a01c221da6e1a565143985827340c740eff1c8e7"
+        },
+        {
+          "path": "references/lifecycle-automations.md",
+          "git_blob_sha": "86f54a823a5c0786b018d43bdb0e5768f7271ed4"
+        },
+        {
+          "path": "references/measurement-and-qa.md",
+          "git_blob_sha": "8e979a967fae184cfe0227138e70f3065092de25"
+        },
+        {
+          "path": "references/poptin-and-sources.md",
+          "git_blob_sha": "5334d1330ccefc4b08ed3788ca45a3a2a0d582a4"
+        },
+        {
+          "path": "references/segmentation-and-data.md",
+          "git_blob_sha": "534c7f7207594a80a78f7cfa5dbb3b1221a3952b"
+        }
+      ]
+    },
+    {
+      "name": "security-services-marketing-specialist",
+      "source_repository": "email-marketing-skills-hub/security-services-marketing-specialist",
+      "source_tree_sha": "73e0ad42ecd662b1fc6ee94f0ab9fc751734fcaf",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "486b42c540ac22e547e55b69fe809fff855cd566"
+        },
+        {
+          "path": "evals/cases.md",
+          "git_blob_sha": "f5670b0677e69d8593e418636551156c108f7f74"
+        },
+        {
+          "path": "references/capture-tools.md",
+          "git_blob_sha": "8fb79b163de6f15a2508bd1a57c55a23f898e2e4"
+        },
+        {
+          "path": "references/security-controls.md",
+          "git_blob_sha": "298ea91cef31008a48a37e4086e88fa13a6dbb30"
+        }
+      ]
+    },
+    {
+      "name": "travel-marketing-specialist",
+      "source_repository": "email-marketing-skills-hub/travel-marketing-specialist",
+      "source_tree_sha": "548cf4d5e8b84e0a61131e545cdbb4bd12886b64",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "002c63f64da86306a2d5c28eec93595004f0da86"
+        },
+        {
+          "path": "references/public-guidance.md",
+          "git_blob_sha": "0fd213bda9a39e557c0d82af2ca3f8519a723842"
+        }
+      ]
+    }
+  ]
+}
