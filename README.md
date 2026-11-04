@@ -12,7 +12,6 @@ If this collection helps your work, star this repository so more marketers can f
 
 Use the [Skills CLI](https://github.com/vercel-labs/skills) with Node.js 22.20 or later. Run commands from the project where you want the skills installed.
 
-> Pre-publication note: these remote examples target the proposed repository `email-marketing-skills-hub/email-marketing-skills`. They work after that repository is published. To test this local collection now, replace the repository argument with its local directory path.
 
 List the available skills without installing:
 

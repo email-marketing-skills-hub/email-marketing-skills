@@ -18,7 +18,7 @@ Run `python scripts/validate_collection.py` to repeat the structural and content
 ## Not verified
 
 - Actual CLI listing and single/all-skill installation have not been executed. The official `skills` npm package was not installed or cached in the build environment. An offline CLI probe returned `ENOTCACHED`; no substitute installer was used and no external agent installation was changed.
-- Remote installation cannot be verified until the consolidated repository is published.
+- The public repository tree was verified after publication: all 92 files match the validated local content hashes. Remote CLI installation remains untested in this environment.
 - These checks do not certify marketing outcomes, external links, every agent's runtime behavior, or legal compliance. Existing skill-local test materials were preserved, not represented as newly executed evaluations.
 
 ## Suggested post-publication smoke test
