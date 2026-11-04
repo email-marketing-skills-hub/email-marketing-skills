@@ -116,4 +116,6 @@ The validator checks unique names, frontmatter, required descriptions, local Mar
 
 ## Licensing
 
-The source repositories did not include a license file at the recorded snapshot. This consolidation does not introduce a new license grant. Contact the repository owner for reuse or redistribution terms rather than assuming an open-source license applies.
+This collection is licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Poptin LTD.
