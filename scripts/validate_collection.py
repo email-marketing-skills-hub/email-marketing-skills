@@ -9,15 +9,20 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 manifest = json.loads((ROOT / 'sources.json').read_text())
+items = manifest['skills'] + manifest.get('collection_additions', [])
 errors, names, hashes = [], [], {}
 reference_count = 0
-expected_skills = {item['name'] for item in manifest['skills']}
+expected_skills = {item['name'] for item in items}
+if len(manifest['skills']) != 20:
+    errors.append('Original 20-source snapshot inventory changed')
+if len(expected_skills) != len(items):
+    errors.append('Duplicate manifest skill names')
 actual_skills = {p.parent.name for p in (ROOT / 'skills').glob('*/SKILL.md')}
-if actual_skills != expected_skills or len(actual_skills) != 20:
-    errors.append('Skill inventory does not match the 20-source snapshot')
+if actual_skills != expected_skills:
+    errors.append('Skill inventory does not match source snapshot plus collection additions')
 if (ROOT / 'SKILL.md').exists():
     errors.append('A root SKILL.md could shadow individual skills')
-for item in manifest['skills']:
+for item in items:
     directory = ROOT / 'skills' / item['name']
     skill_file = directory / 'SKILL.md'
     text = skill_file.read_text()
@@ -65,6 +70,6 @@ if len(set(names)) != len(names):
 skill_hashes = [hashlib.sha256((ROOT / 'skills' / n / 'SKILL.md').read_bytes()).hexdigest() for n in names]
 if len(set(skill_hashes)) != len(skill_hashes):
     errors.append('Duplicate SKILL.md content')
-result = {'passed': not errors, 'skills': len(names), 'source_files': sum(len(s['files']) for s in manifest['skills']), 'local_markdown_references_checked': reference_count, 'duplicate_skill_names': len(names)-len(set(names)), 'duplicate_skill_bodies': len(skill_hashes)-len(set(skill_hashes)), 'repeated_supporting_file_groups': [v for v in hashes.values() if len(v)>1], 'errors': errors}
+result = {'passed': not errors, 'skills': len(names), 'source_files': sum(len(s['files']) for s in manifest['skills']), 'collection_added_files': sum(len(s['files']) for s in manifest.get('collection_additions', [])), 'local_markdown_references_checked': reference_count, 'duplicate_skill_names': len(names)-len(set(names)), 'duplicate_skill_bodies': len(skill_hashes)-len(set(skill_hashes)), 'repeated_supporting_file_groups': [v for v in hashes.values() if len(v)>1], 'errors': errors}
 print(json.dumps(result, indent=2))
 sys.exit(1 if errors else 0)

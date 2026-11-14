@@ -1,6 +1,6 @@
 # Validation
 
-Validated on November 4, 2026.
+Original snapshot validated on November 4, 2026. Collection addition validated on November 14, 2026.
 
 ## Passed
 
@@ -36,10 +36,19 @@ Confirm exactly one skill and its references are installed. In a second disposab
 npx skills add email-marketing-skills-hub/email-marketing-skills --skill '*' -a codex --copy -y
 ```
 
-Confirm that all 20 uniquely named skills and their supporting files are installed. Do not run smoke tests against an existing project's skill installation without checking for name collisions first.
+Confirm that all 21 uniquely named skills and their supporting files are installed. Do not run smoke tests against an existing project's skill installation without checking for name collisions first.
 
 ## Documentation sources
 
 - [Skills CLI installation flags](https://github.com/vercel-labs/skills/blob/main/docs/commands.md#skills-add)
 - [Skill structure and discovery](https://github.com/vercel-labs/skills/blob/main/docs/creating-skills.md)
 - [Skills CLI requirements](https://github.com/vercel-labs/skills/blob/main/README.md)
+
+## November 14 collection addition
+
+- Added `poptin-mcp-email-campaigns` with two supporting references.
+- Original 20-skill / 88-file snapshot and all original Git blob hashes remain unchanged.
+- Validator now checks the original snapshot plus explicitly recorded `collection_additions`; it still enforces the original snapshot count and all content hashes.
+- Structural validation covers 21 skills / 91 skill files. Mock scenario expectations cover draft-only execution, supported/unsupported HTML, eligible versus matching audience counts, send/schedule confirmation, changed audiences, ambiguous times, uncertain sends, human edits and missing capabilities.
+- Official public MCP guide reviewed November 14. The guide confirms gallery/saved templates, segments, draft/send/schedule, but does not document exact tool schemas or HTML import. Runtime discovery and an explicit HTML fallback prevent unsupported capability claims.
+- No Poptin account was connected, campaign created, audience changed, test email sent, campaign launched or scheduled during this documentation update. End-to-end MCP execution and delivery remain untested.

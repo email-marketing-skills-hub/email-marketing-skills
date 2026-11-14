@@ -2,7 +2,7 @@
 
 ![Email marketing skills illustration: an agent sorts requests into campaigns, popups, automations, and segments.](assets/email-marketing-skills-hero.svg)
 
-**20 focused AI-agent skills for email marketing and audience growth, brought together by [Poptin](https://www.poptin.com/).**
+**21 focused AI-agent skills for email marketing and audience growth, brought together by [Poptin](https://www.poptin.com/).**
 
 Plan campaigns, write copy, design automations, define segments, improve signup experiences, and review deliverability. Choose a general workflow or an industry specialist. Install only what you need, or install the full collection.
 
@@ -33,7 +33,7 @@ Select multiple skills:
 npx skills add email-marketing-skills-hub/email-marketing-skills --skill email-campaign-specialist --skill email-segmentation-specialist
 ```
 
-Install all 20 skills and choose your agent in the installer:
+Install all 21 skills and choose your agent in the installer:
 
 ```bash
 npx skills add email-marketing-skills-hub/email-marketing-skills --skill '*'
@@ -58,6 +58,7 @@ Copy the entire directory for a selected skill, including its references and exa
 
 | Skill | Use it for |
 | --- | --- |
+| [poptin-mcp-email-campaigns](skills/poptin-mcp-email-campaigns/SKILL.md) | Build a Poptin MCP campaign from a template or supported HTML import, preview the audience, and save a draft or confirm a send/schedule. |
 | [email-campaign-specialist](skills/email-campaign-specialist/SKILL.md) | Plan and draft newsletters, promotions, campaign briefs, and measurement plans. |
 | [email-automation-specialist](skills/email-automation-specialist/SKILL.md) | Design lifecycle workflows with entry criteria, exclusions, exits, and QA. |
 | [email-segmentation-specialist](skills/email-segmentation-specialist/SKILL.md) | Define actionable audiences, Boolean rules, exclusions, and overlap handling. |
@@ -86,6 +87,9 @@ Copy the entire directory for a selected skill, including its references and exa
 
 ## Example requests
 
+- “Use poptin-mcp-email-campaigns to prepare a campaign from a saved template for engaged subscribers, preview the audience, and leave it as a draft.”
+- “Use poptin-mcp-email-campaigns with this HTML. Check whether the connected tools support import, then prepare the audience and show me the final schedule for confirmation.”
+
 - “Use email-campaign-specialist to draft a launch email from this approved brief. Flag any missing facts.”
 - “Use email-automation-specialist to design a welcome flow with consent checks, exit rules, and a QA plan.”
 - “Use ecommerce-email-marketing-specialist to audit these cart-recovery emails without inventing discounts.”
@@ -103,9 +107,11 @@ These skills provide planning, drafting, analysis, and implementation guidance. 
 
 ## Provenance and maintenance
 
-This collection preserves the 20 standalone skills from [Email Marketing Skills Hub](https://github.com/email-marketing-skills-hub). All 88 source files were copied without content changes, preserving their relative references, examples, and existing test materials. The original repositories are unchanged.
+The collection now contains 21 skills. The new [Poptin MCP Email Campaigns](skills/poptin-mcp-email-campaigns/SKILL.md) skill was added on November 14, 2026, with capability-gated HTML handling and explicit launch confirmation. It requires a separately authorized Poptin MCP connection for execution; installation does not supply account access.
 
-[sources.json](sources.json) records the source repository, snapshot tree SHA, and Git blob SHA for every file. This snapshot was verified on November 4, 2026. To validate the local collection:
+This collection preserves the original 20 standalone skills from [Email Marketing Skills Hub](https://github.com/email-marketing-skills-hub). All 88 source files were copied without content changes, preserving their relative references, examples, and existing test materials. The original repositories are unchanged.
+
+[sources.json](sources.json) records the source repository, snapshot tree SHA, and Git blob SHA for every file. This snapshot was verified on November 4, 2026. `collection_additions` in the manifest records newly authored collection-native skills separately, without changing the original source snapshot. To validate the local collection:
 
 ```bash
 python -m pip install PyYAML

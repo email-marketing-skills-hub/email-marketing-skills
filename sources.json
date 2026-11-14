@@ -494,5 +494,26 @@
         }
       ]
     }
+  ],
+  "collection_additions": [
+    {
+      "name": "poptin-mcp-email-campaigns",
+      "added_date": "2026-11-14",
+      "provenance": "Authored for this collection using the public Poptin MCP guide; not part of the November 4 source snapshot.",
+      "files": [
+        {
+          "path": "SKILL.md",
+          "git_blob_sha": "3fabfbda2c3b238b207a3954ec0c970b98a6a4c8"
+        },
+        {
+          "path": "references/capabilities.md",
+          "git_blob_sha": "dae6485e04571608a2be562100a2af4eb890a802"
+        },
+        {
+          "path": "references/scenario-checks.md",
+          "git_blob_sha": "a6a0ee1712a8e1146543dd7ed0d7191051151165"
+        }
+      ]
+    }
   ]
 }
